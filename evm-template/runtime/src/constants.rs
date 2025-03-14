@@ -35,8 +35,8 @@ pub const POLY_DEGREE: u8 = 1;
 
 #[sp_version::runtime_version]
 pub const VERSION: RuntimeVersion = RuntimeVersion {
-    spec_name: create_runtime_str!("template-parachain"),
-    impl_name: create_runtime_str!("template-parachain"),
+    spec_name: create_runtime_str!("MAC Parachain Jabar"),
+    impl_name: create_runtime_str!("MAC Parachain Jabar"),
     authoring_version: 1,
     spec_version: 1,
     impl_version: 0,

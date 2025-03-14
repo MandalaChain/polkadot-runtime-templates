@@ -35,8 +35,8 @@ mod runtime_tests {
         assert_eq!(
             VERSION,
             RuntimeVersion {
-                spec_name: create_runtime_str!("template-parachain"),
-                impl_name: create_runtime_str!("template-parachain"),
+                spec_name: create_runtime_str!("MAC Parachain Jabar"),
+                impl_name: create_runtime_str!("MAC Parachain Jabar"),
                 authoring_version: 1,
                 spec_version: 1,
                 impl_version: 0,
