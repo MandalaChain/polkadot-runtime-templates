@@ -156,6 +156,14 @@ pub fn local_testnet_config(contracts_path: ContractsPath) -> ChainSpec {
                 get_collator_keys_from_seed("Alice"),
             ),
             (get_account_id_from_seed::<ecdsa::Public>("Bob"), get_collator_keys_from_seed("Bob")),
+            (
+                get_account_id_from_seed::<ecdsa::Public>("Charlie"),
+                get_collator_keys_from_seed("Charlie"),
+            ),
+            (
+                get_account_id_from_seed::<ecdsa::Public>("Dave"),
+                get_collator_keys_from_seed("Dave"),
+            ),
         ],
         vec![
             // Alith, Baltathar, Charleth and Dorothy, Ethan
