@@ -110,7 +110,7 @@ impl SystemConfig for OpenZeppelinRuntime {
     type ExistentialDeposit = ConstU128<EXISTENTIAL_DEPOSIT>;
     type Lookup = IdentityLookup<AccountId>;
     #[cfg(not(feature = "tanssi"))]
-    type OnTimestampSet = Aura;
+    type OnTimestampSet = ();
     #[cfg(feature = "tanssi")]
     type OnTimestampSet = ();
     type PreimageOrigin = EnsureRoot<AccountId>;
