@@ -33,7 +33,7 @@ fn load_spec(
 
 impl SubstrateCli for Cli {
     fn impl_name() -> String {
-        "MAC Parachain Jabar Collator".into()
+        "MAC Parachain Collator".into()
     }
 
     fn impl_version() -> String {
@@ -42,9 +42,9 @@ impl SubstrateCli for Cli {
 
     fn description() -> String {
         format!(
-            "MAC Parachain Jabar Collator\n\nThe command-line arguments provided first will be \
-             passed to the parachain node, while the arguments provided after -- will be passed \
-             to the relay chain node.\n\n{} <parachain-args> -- <relay-chain-args>",
+            "MAC Parachain Collator\n\nThe command-line arguments provided first will be passed \
+             to the parachain node, while the arguments provided after -- will be passed to the \
+             relay chain node.\n\n{} <parachain-args> -- <relay-chain-args>",
             Self::executable_name()
         )
     }
@@ -71,7 +71,7 @@ impl SubstrateCli for Cli {
 
 impl SubstrateCli for RelayChainCli {
     fn impl_name() -> String {
-        "MAC Parachain Jabar Collator".into()
+        "MAC Parachain Collator".into()
     }
 
     fn impl_version() -> String {
@@ -80,9 +80,9 @@ impl SubstrateCli for RelayChainCli {
 
     fn description() -> String {
         format!(
-            "MAC Parachain Jabar Collator\n\nThe command-line arguments provided first will be \
-             passed to the parachain node, while the arguments provided after -- will be passed \
-             to the relay chain node.\n\n{} <parachain-args> -- <relay-chain-args>",
+            "MAC Parachain Collator\n\nThe command-line arguments provided first will be passed \
+             to the parachain node, while the arguments provided after -- will be passed to the \
+             relay chain node.\n\n{} <parachain-args> -- <relay-chain-args>",
             Self::executable_name()
         )
     }
